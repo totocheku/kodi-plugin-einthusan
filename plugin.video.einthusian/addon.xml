@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.einthusan"
+       name="Einthusan"
+       version="0.1.0"
+       provider-name="TotoCheku">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="script.module.future" version="0.16.0.4"/>
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>watch Indian movies</summary>
+        <description>This Kodi plugin allows to watch Indian movies from einthusan.tv</description>
+        <disclaimer>Icon made by xnimrodx from https://www.flaticon.com/authors/xnimrodx</disclaimer>
+        <source>https://github.com/totocheku/kodi-plugin-einthusan</source>
+        <email>totocheku at gmail dot com</email>
+    </extension>
+</addon>

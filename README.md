@@ -1,2 +1,2 @@
 # kodi-plugin-einthusan
-Kodi plugin for einthusan.tv
+This plugin enables you to watch movies from einthusan.tv in Kodi.
